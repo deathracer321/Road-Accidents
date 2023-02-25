@@ -40,17 +40,16 @@ app.get("/iotdblink", function (req, res) {
     })
     .then((docRef) => {
       console.log("Document written with ID: ", docRef.id);
+      res.status(200).send({
+        gpsLocationLatitude: req.query["gpsLocationLat"],
+        gpsLocationLongitude: req.query["gpsLocationLon"],
+        groundClearance: req.query["groundClearance"],
+        pressure: req.query["pressure"],
+      });
     })
     .catch((error) => {
       console.error("Error adding document: ", error);
     });
-
-  res.send({
-    gpsLocationLatitude: req.query["gpsLocationLat"],
-    gpsLocationLongitude: req.query["gpsLocationLon"],
-    groundClearance: req.query["groundClearance"],
-    pressure: req.query["pressure"],
-  });
 
   // -----------get method ends here-----------
 });
