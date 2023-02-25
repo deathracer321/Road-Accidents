@@ -9,3 +9,7 @@ https://www.freecodecamp.org/news/how-to-deploy-nodejs-application-with-render/
 
 hit this server with the following params to get the data to the db:
 http://DOMAIN_NAME/iotdblink?gpsLocationLat=12.945850&gpsLocationLon=79.167221&pressure=200&groundClearance=50
+
+or
+
+https://roadaccidents.onrender.com/iotdblink?gpsLocationLat=0000&gpsLocationLon=0000&pressure=0000&groundClearance=0000
