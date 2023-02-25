@@ -1,3 +1,11 @@
 use this link to deploy:
 
 https://www.freecodecamp.org/news/how-to-deploy-nodejs-application-with-render/
+
+// below get is to get the info from the IOT machine
+// https://roadaccidents.onrender.com/iotdblink?name=harish&age=10
+// just commit and push to git
+// and manually deploy in the render website
+
+hit this server with the following params to get the data to the db:
+http://DOMAIN_NAME/iotdblink?gpsLocationLat=12.945850&gpsLocationLon=79.167221&pressure=200&groundClearance=50

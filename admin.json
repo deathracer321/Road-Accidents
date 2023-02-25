@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "roadaccidents-harish",
+  "private_key_id": "e04488a3cee3142fab85b470becb932da8e7c3d2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCoqAVnExtB/uzg\nZBu4OGbwg5u40u+k7iS2Rk5E02SBDbYJ/ZmLWUfK86/IpvInQ6tFJvB8+4NYMo+8\nMLd5hR83gAMonZuCP/5zc79ZLOGPXGQnYw4U8eSPjxiSK/idG9aPkS+u3X2tYeFJ\nxRz1H7IWVNiuooGW7Oo6eyH5inm7rI3gPur1017Bxt08lCcyyh97N9bRV6vVee95\n+n7OVcYujKB1KHbS00MSyxFr77pOLt8dNtMqwTUvuF0K2OGYCxesf8fE2L0MI/jR\nFljeiYf76pDv8kak/0CyH0dF7aN6Cxgx3vDp1il14XTGrgXbPdQzdvDn8Rv1gfNR\nIKvsbRGbAgMBAAECggEAJusWzBFBofoEiUcwilMhlfCYt46dVC7L8+/HUeSB9bHH\nRwjpLJm+klunPaMgj+TymbOBnSWgynJobqHDRNxuNq1ojS/JWcYQnm2gQyCzMBS+\n28Pk1Pp4ppP7tIdHCGILIff7y9s6jA7hINfGdd4Jh1Ou6KWBR+WFq1cMoPvOWXr4\nhM809qTuesgpfpKpEGJqaiZMWCQKVun1SNI04bggPmuJpgRB0fCsQZho42JKeeF2\na/rbr0/eRprOWHhjtl7+cZYPYRnHtejteealFmESA2xNs6j3FnXG2lQhVw11x7Br\nojBB7TtPl1EZlNYzJacMHzt6SJfRQ0/YzgqOtFV9sQKBgQDoiIuOjW8TXcgeBIlF\nnWpUwQHQISdKk1dtt7rM0A3USGCw7D67obiGyR4qwmh7jEnc+WE91K554toc+fAN\nTjZL7NqgrEf/R7N9/zURwGA9Txyo7w69FuphQv95eOMd/txwDFTECsg7JZtsoyxZ\nSFrZsikn4T4Ccq3+pm6EWoEwQwKBgQC5rTmNTEbA10emiubZEWnVYeLm6D9er6LV\nZy+AF1nfROuo0VlSiltP3D4Q70BJMvCZTFrYWcm2Oxev9FtPK/m3++ZXrRrKiUQF\nSumBQ70MX0T1MN41levimQmzpPFAPmQTX9L/Obuhc1HIDQexNuoO5f9d3yMyyDr1\ns4awKajPyQKBgQCFpMSgn4TxWnsDVZQXoItWPr9uAT/1yoz7EBeaUxE/qoF37a94\nY1AMl1ZxON6X818YU3Oh97R3dPvqn3NqEkN+i5hzs9CFVY5BogW8OBaX5foQ1aRg\n5OS8FaeDBwlxWeMTuuKU8aV26PxVCcsZXU5pw82HkBr1iTebHchy5RlOxQKBgQCz\neB4y11FkQDG/Zm8vzUcQu2bIbiAic33e67fcBbYWutVV/dRqldUg4e8UC02F8zjf\n1A/TIyZ3f7KrnnNLmWPsVA0XHfjRX9BhlUESctkeRk+u96cxAFJaWjYob/vIbwXo\nPC0ECVe0/HRF+2I+BqhB8kndADtTcHqc1wQO7pV/EQKBgQDKxYDP4CSAdqHW2SP/\nW/rtYaFbHMK44X4NV6kNIeSkMlZxwMmtrfDOmAoQT3SL/HgIgmRtiRxSV1lZEmE6\nTrFIcG5npjU7Bqz69wEe3x3p4vsbttDmHm0STM0Rvd9Jmgq9xcHMB9OeMJRK+LP3\nMhDqsnpdrQ1qpZjoagfvTEeGLQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-edg67@roadaccidents-harish.iam.gserviceaccount.com",
+  "client_id": "100257477642096775151",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-edg67%40roadaccidents-harish.iam.gserviceaccount.com"
+}
