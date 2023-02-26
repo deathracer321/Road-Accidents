@@ -13,3 +13,9 @@ http://DOMAIN_NAME/iotdblink?gpsLocationLat=12.945850&gpsLocationLon=79.167221&p
 or
 
 https://roadaccidents.onrender.com/iotdblink?gpsLocationLat=0000&gpsLocationLon=0000&pressure=0000&groundClearance=0000
+
+procedure to https when u have only http request:
+to use this server:
+use webhook site as the middleware
+use xhr redirect to redirect to the localhost server
+and thats it, this server should post data to the db;

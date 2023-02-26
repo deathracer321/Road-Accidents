@@ -1,10 +1,12 @@
 require("dotenv").config();
 
 const db = require("./firebase");
-
+var cors = require("cors");
 const express = require("express");
 const app = express();
 const PORT = process.env.SERVER_PORT || 3030;
+
+app.use(cors());
 
 //Another method to send data to server line 1
 //const docRef = db.collection("users").doc("alovelace");
