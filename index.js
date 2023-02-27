@@ -35,14 +35,20 @@ app.get("/iotdblink", function (req, res) {
 
   db.collection("users")
     .add({
-      gpsLocationLat: req.query["gpsLocationLat"] || "default",
-      gpsLocationLon: req.query["gpsLocationLon"] || "default",
-      pressure: req.query["pressure"] || "default",
-      groundClearance: req.query["groundClearance"] || "default",
+      name: req.query["name"] || "Harish",
+      emergencyContact: req.query["emergencyContact"] || "+91 9999999999",
+      address: req.query["address"] || "no.1 abc street",
+      gpsLocationLat: req.query["gpsLocationLat"] || "20",
+      gpsLocationLon: req.query["gpsLocationLon"] || "20",
+      pressure: req.query["pressure"] || "20",
+      groundClearance: req.query["groundClearance"] || "20",
     })
     .then((docRef) => {
       console.log("Document written with ID: ", docRef.id);
       res.status(200).send({
+        name: req.query["name"],
+        emergencyContact: req.query["emergencyContact"],
+        address: req.query["address"],
         gpsLocationLatitude: req.query["gpsLocationLat"],
         gpsLocationLongitude: req.query["gpsLocationLon"],
         groundClearance: req.query["groundClearance"],
