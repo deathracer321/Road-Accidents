@@ -19,3 +19,10 @@ to use this server:
 use webhook site as the middleware
 use xhr redirect to redirect to the localhost server
 and thats it, this server should post data to the db;
+
+
+intermediate link:
+https://webhook.site/822bf6ac-c4c9-4815-9509-daade7f5c835?gpsLocationLat=12.945850&gpsLocationLon=79.167221&pressure=201&groundClearance=30&name=harish&emergencyContact=9894055514&address=street123
+
+server link:
+http://localhost:3030/iotdblink?gpsLocationLat=12.945850&gpsLocationLon=79.167221&pressure=201&groundClearance=30&name=harish&emergencyContact=9894055514&address=street123
